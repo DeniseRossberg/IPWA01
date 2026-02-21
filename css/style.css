@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #0d6efd !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: #e2e6ea !important;
+}
+
+.navbar .nav-link.active {
+    font-weight: 700;
+    color: lightgray !important;
+    border-bottom: 2px solid lightgray !important;
+}
+
+footer {
+    background-color: #0b5ed7;
+}
+
+footer a,
+footer span {
+    color: white !important;
+}
+
+footer a:hover {
+    color: #e2e6ea !important;
+}
+
+.btn-custom {
+    min-width: 160px;
+    max-width: 160px;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+#inputText, #outputText {
+    height: 60vh !important;
+    min-height: 400px !important;
+    max-height: 800px !important;
+    resize: none;
+}
+
+@media (max-width: 991px) {
+    #inputText, #outputText {
+        height: 40vh !important;
+        min-height: 300px !important;
+    }
+}
+
+#rawText, #outputExampleText {
+    height: 60vh !important;
+    min-height: 400px !important;
+    max-height: 800px !important;
+    resize: none;
+}
+
+@media (max-width: 991px) {
+    #rawText, #outputExampleText {
+        height: 40vh !important;
+        min-height: 300px !important;
+    }
+}
