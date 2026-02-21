@@ -12,6 +12,7 @@
 </head>
 <body>
 
+<!--Header -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -34,7 +35,27 @@
 </nav>
 
 <!--Content -->
+<main class="container my-5">
+    <div class="row justify-content-center align-items-center g-3">
 
+        <div class="col-12 col-lg-5">
+            <textarea id="rawText" class="form-control" rows="20" placeholder="Rohtext..." readonly></textarea>
+        </div>
+
+        <div class="col-12 col-lg-auto d-flex flex-column gap-2 text-center">
+            <button id="example1Btn" class="btn btn-primary px-4">Beispiel 1</button>
+            <button id="example2Btn" class="btn btn-primary px-4">Beispiel 2</button>
+            <button id="example3Btn" class="btn btn-primary px-4">Beispiel 3</button>
+        </div>
+
+        <div class="col-12 col-lg-5">
+            <textarea id="outputExampleText" class="form-control" rows="20" placeholder="Ausgabe..." readonly></textarea>
+        </div>
+
+    </div>
+</main>
+
+<!--Footer -->
 <footer class="bg-light mt-auto">
     <div class="container-fluid">
         <div class="py-2 px-2" style="font-size: 0.85rem;">
