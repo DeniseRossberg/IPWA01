@@ -1,0 +1,14 @@
+{
+  "anleitung_1": {
+    "titel": "Einrichtung eines neuen Benutzerkontos im Administrationssystem",
+    "text": "Um ein neues Benutzerkonto anzulegen, meldet sich der Administrator im Backend an.\nDer Benutzer wird anschließend im Bereich „Benutzerverwaltung“ hinzugefügt.\nFalls spezielle Rechte erforderlich sind, kann der Projektleiter zusätzliche Rollen vergeben.\nEin zuständiger Entwickler überprüft abschließend die Konfiguration und informiert den Redakteur, sobald das Konto freigeschaltet ist."
+  },
+  "anleitung_2": {
+    "titel": "Wartung einer Produktionsanlage",
+    "text": "Vor Beginn der Wartungsarbeiten meldet sich der Mechaniker beim verantwortlichen Techniker.\nDer Ingenieur stellt sicher, dass alle Sicherheitsvorgaben dokumentiert sind.\nSollten mehrere Experten beteiligt sein, koordiniert der Projektleiter die Aufgabenverteilung. Nach Abschluss der Arbeiten dokumentiert der Redakteur die durchgeführten Maßnahmen im System."
+  },
+  "anleitung_3": {
+    "titel": "Software-Release-Prozess",
+    "text": "Der Entwickler erstellt das neue Build und informiert den zuständigen Administrator.\nEin Experte führt anschließend die Qualitätssicherung durch.\nSobald die Tests erfolgreich sind, gibt der Projektleiter das Release frei.\nDer Benutzer erhält danach Zugriff auf die neue Version, während der Techniker den Rollout überwacht."
+  }
+}
