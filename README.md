@@ -1,4 +1,7 @@
-# 🤖 Regelbasierter Genderautomat
+# Regelbasierter Genderautomat
+
+> <img width="100%" alt="Desktop-Ansicht des Genderautomaten" src="https://github.com/user-attachments/assets/bf6f335e-521e-4ffc-90e3-c8188d888217" />
+*Abbildung: Benutzeroberfläche bei der Verarbeitung eines komplexen Testtextes zur Identifikation linguistischer Grenzfälle.*
 
 Ein interaktiver, regelbasierter Web-Prototyp zur automatisierten Transformation von Texten in gendersensible Sprache. Diese Anwendung wurde speziell im Rahmen einer Fallstudie für den Kontext der Technischen Redaktion in einem Fachverlag entwickelt.
 
@@ -27,12 +30,12 @@ Die Anwendung ermöglicht es, ungelenke maskuline Formen in technischen Dokument
 
 ## Installation & Lokaler Start
 
-Da es sich um eine reine Client-Side-Webanwendung handelt, ist **keine aufwändige Installation** oder Server-Umgebung (wie Node.js) erforderlich. Du kannst das Projekt direkt im Browser ausführen:
+Da es sich um eine reine clientseitige Webanwendung (Frontend) handelt, ist keine Installation von Server-Umgebungen, Datenbanken oder Paketmanagern erforderlich. Die Ausführung erfolgt direkt im Webbrowser:
 
 1. **Repository klonen:**
    ```bash
-   git clone [https://github.com/DEIN-GITHUB-NAME/DEIN-REPOSITORY-NAME.git](https://github.com/DEIN-GITHUB-NAME/DEIN-REPOSITORY-NAME.git)
+   git clone https://github.com/DEIN-GITHUB-NAME/DEIN-REPOSITORY-NAME.git
 2. **Verzeichnis öffnen:**
-Navigieren Sie in den lokalen Projektordner, der die Datei index.html enthält.
+   Navigieren Sie in den lokalen Projektordner, der die Datei `index.html` enthält.
 3. **Anwendung ausführen:**
-Öffnen Sie die Datei index.html per Doppelklick in einem aktuellen Webbrowser (z. B. Google Chrome, Mozilla Firefox, Microsoft Edge oder Safari).
+   Öffnen Sie die Datei `index.html` per Doppelklick in einem aktuellen Webbrowser (z. B. Google Chrome, Mozilla Firefox, Microsoft Edge oder Safari).
